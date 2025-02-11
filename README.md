@@ -10,9 +10,13 @@ Before training, some preprocessing steps were applied:
 - Country code encoding: The source IP's country code was converted into numerical categories for model training.
 
 ## Clustering ##
-The K-Means algorithm was used to group the data into clusters. The Elbow Method determined that three clusters provided the best separation.
+The K-Means algorithm was used to group the data into clusters. 
 
-Cluster visualizations, including centroid positions, were generated for analysis.
+# The Elbow Method determined that three clusters provided the best separation.
+![](elbow.png)
+
+# Cluster visualizations, including centroid positions, were generated for analysis.
+![](clusters.png)
 
 ## Decision Tree ##
 The dataset was split into 75% training and 25% testing subsets. A Decision Tree classifier was trained, achieving an accuracy of 100% on the test set.
