@@ -1,5 +1,5 @@
 # Cluster-Classification-WebAttack
-his repository demonstrates the use of K-Means clustering to identify patterns in web traffic data and then applies a Decision Tree classifier to predict potential web threats.
+This repository demonstrates the use of K-Means clustering to identify patterns in web traffic data and then applies a Decision Tree classifier to predict potential web threats.
 
 ## Dataset ##
 The dataset consists of web traffic interactions labeled as suspicious. It contains 16 columns, but only four features were selected for training both the K-Means and Decision Tree models.  The dataset used is from the kaggle website (https://www.kaggle.com/datasets/jancsg/cybersecurity-suspicious-web-threat-interactions).
